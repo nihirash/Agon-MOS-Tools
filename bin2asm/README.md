@@ -2,11 +2,11 @@
 
 Allows you convert any binary to assembly source to include.
 
-I did it cause (agon-ez80asm)[https://github.com/envenomator/agon-ez80asm] didn't support `incbin` directive yet.
+I did it cause [agon-ez80asm](https://github.com/envenomator/agon-ez80asm) didn't support `incbin` directive yet.
 
 I just wanted make bouncing ball demo in assembly but written this instead.
 
-Code written directly on Agon Light and compiled with (agon-ez80asm)[https://github.com/envenomator/agon-ez80asm].
+Code written directly on Agon Light and compiled with [agon-ez80asm](https://github.com/envenomator/agon-ez80asm).
 
 ## Usage
 
