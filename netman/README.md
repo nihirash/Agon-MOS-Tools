@@ -12,6 +12,12 @@ Copy binary into `/mos/` directory and call netman command.
 
 In case error you can try restart tool. 
 
+## Requirements
+
+ * ESP8266 chip(Espressif AT firmware out of the box - 115200 baud speed) on UART1. It's important! In other case my app will freeze
+
+ * MOS 1.03 RC3 or above(cause UART api appears here first time)
+
 ## Compilation
 
 Enter sources directory and call `asm netman.asm`. 
