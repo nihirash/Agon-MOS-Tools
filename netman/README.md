@@ -20,6 +20,8 @@ In case error you can try restart tool.
 
 ## Compilation
 
+Code written directly on Agon Light and compiled with [agon-ez80asm](https://github.com/envenomator/agon-ez80asm).
+
 Enter sources directory and call `asm netman.asm`. 
 
 It will produce `netman.bin` binary. *IMPORTANT* It will be built for using as MOS command - won't work after `LOAD` and `RUN`.
