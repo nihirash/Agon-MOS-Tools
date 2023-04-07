@@ -1,5 +1,13 @@
 # bin2asm Agon MOS command
 
+## Important notes!
+
+**DEPRECATED** Cause agon-ez80asm implement this feature native. 
+
+**CAUTION** This code contains error - it lost last byte! But feel free discover and hack it. 
+
+## About it(but anyway it isn't actual)
+
 Allows you convert any binary to assembly source to include.
 
 I did it cause [agon-ez80asm](https://github.com/envenomator/agon-ez80asm) didn't support `incbin` directive yet.

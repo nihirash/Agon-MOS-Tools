@@ -8,6 +8,14 @@ Loadable MOS command that converts any file to includable assembly source(withou
 
 Open projects directory for details
 
+## Netman
+
+WiFi network manager and ESP chip configurer. 
+
+Allows connect to ESP8266 to your wifi network.
+
+Open project directory for details.  
+
 ## License
 
 All this projects licensed under MIT
