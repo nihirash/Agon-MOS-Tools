@@ -8,11 +8,27 @@ Loadable MOS command that converts any file to includable assembly source(withou
 
 Open projects directory for details
 
-## Netman
+## ESP8266 Software
+
+### Netman
 
 WiFi network manager and ESP chip configurer. 
 
 Allows connect to ESP8266 to your wifi network.
+
+Open project directory for details.  
+
+### ESP Update
+
+Allows keep your ESP8266 module up to date.
+
+Can be required for using network software.
+
+Open project directory for details.  
+
+### ESP8266 AT Commands tester
+
+Allows test some AT-commands in interactive mode
 
 Open project directory for details.  
 
