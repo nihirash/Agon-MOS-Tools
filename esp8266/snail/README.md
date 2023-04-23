@@ -53,6 +53,6 @@ Happy hacking!
 
 ## Supporting project
 
-Feel free support project by code, misspell fixes, sharing info about it or even via (Ko-Fi service)[https://ko-fi.com/nihirash].
+Feel free support project by code, misspell fixes, sharing info about it or even via [Ko-Fi service](https://ko-fi.com/nihirash).
 
 Stay save and never support war aggression! 
