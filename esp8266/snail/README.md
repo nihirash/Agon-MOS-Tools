@@ -37,6 +37,12 @@ It's expetimental software that uses ESP8266 with Espressif AT firmware for netw
 
  * Enjoy gopherspace
 
+## Development
+
+Code written directly on Agon Light and compiled with [agon-ez80asm](https://github.com/envenomator/agon-ez80asm). I'm strongly recommend use latest version of ez80asm - cause it updates often and goes better and better every day.
+
+I'm using [Nano](https://github.com/lennart-benschop/agon-utilities) text editor for Agon Light for writting code directly on Agon.
+
 ## Known bugs and limitations
 
  * TCP error handling isn't implemented correctly yet. But in most cases it should work fine
