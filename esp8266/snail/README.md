@@ -47,7 +47,7 @@ It's expetimental software that uses ESP8266 with Espressif AT firmware for netw
 
 ## Licensing
 
-Snail browser licensed with Nihirash's Coffeware License. It isn't hard to respect it.
+Snail browser licensed with [Nihirash's Coffeware License](LICENSE). It isn't hard to respect it.
 
 Happy hacking!
 
