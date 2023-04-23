@@ -32,6 +32,12 @@ Allows test some AT-commands in interactive mode
 
 Open project directory for details.  
 
+### Snail - fast gopher browser for Agon Light
+
+Allows browse gophersphere and download files from network.
+
+Open project directory for details.
+
 ## License
 
 All this projects licensed under MIT
