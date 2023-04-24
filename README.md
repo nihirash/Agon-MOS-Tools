@@ -1,5 +1,7 @@
 # My own tools for Agon Light(Agon Light 2)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D6JVS74)
+
 Feel free explore and hack them
 
 ## Bin2asm
