@@ -5,7 +5,7 @@ vdp_init:
 	rst.lil $18
 	ret
 @cmd:
-	db 22, 3 ;; Mode 3(640x480)
+	db 22, 0 ;; Mode 0(640x480)
 	db 23, 1, 0 ;; Hide cursor
 	db 23, 27, 0, 0
 	db 23, 27, 1
@@ -180,7 +180,7 @@ ui_header:
 	call ui_buttons
 	ret
 @title:
-	db " Snail - Gopher browser for Agon Light v.0.1 (c)"
+	db " Snail - Gopher browser for Agon Light v.0.2 (c)"
 	db " 2023 Aleksandr Sharikhin       "
 	db 0
 @line:
