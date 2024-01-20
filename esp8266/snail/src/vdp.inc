@@ -180,8 +180,8 @@ ui_header:
 	call ui_buttons
 	ret
 @title:
-	db " Snail - Gopher browser for Agon Light v.0.2 (c)"
-	db " 2023 Aleksandr Sharikhin       "
+	db " Snail - Gopher browser for Agon Light v.0.3 (c)"
+	db " 2024 Aleksandr Sharikhin       "
 	db 0
 @line:
 	db " Host: ["

@@ -14,7 +14,6 @@ on_screen_position:
 	db 0
 last_page:
 	db 0
-
 ; A - gopher line first char
 get_type:
 	cp 'i'
@@ -272,6 +271,8 @@ cursor_render:
 	call printZ
 	pop hl
 	jp print70G
+
+
 	
 navigate:
 	ld hl, (page_offset)
@@ -358,12 +359,53 @@ navigate:
 q_msg:
 	db "Enter your query:", 31, 15, 28, 0
 
+find_first_link:
+	ld b, 55
+@loop:
+	push bc
+	ld hl, (page_offset)
+	ld a, 55
+	sub b
+	ld (@current_line), a
+
+	ld bc, 0
+	ld c, a
+	add hl, bc
+	push hl
+	pop bc
+	call find_line
+	
+	ld a, l
+	or h
+	jr z, @oops
+
+	ld a, (hl)
+	call get_type
+	cp UNKN
+	jr z, @skip
+	
+	cp INFO
+	jr z, @skip
+
+	ld a, (@current_line)
+	ld (cursor_position), a
+	jr @oops
+@skip:
+	pop bc
+	djnz @loop
+	ret
+@oops:
+	pop bc
+	ret
+@current_line:
+	db 0
 
 gopher_render:
 	call ui_header
 
 	xor a 
 	ld (last_page), a
+	call find_first_link
 
 	ld de, $0400
 	call goto_xy
@@ -404,10 +446,11 @@ gopher_render:
 
 	jr @oops2
 
+
+
 ;; HL - pointer to line
 render_row:
 	push hl
-
 
 	ld a, (cursor_position)
 	ld b, a
