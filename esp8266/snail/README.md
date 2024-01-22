@@ -6,7 +6,7 @@ It's expetimental software that uses ESP8266 with Espressif AT firmware for netw
 
 ## Requirements
 
- * Agon Quark(MOS and VDP) 1.03 or later
+ * Agon Quark(MOS and VDP) 1.04 or later
  * ESP8266 with Espressif AT firmware. Version should be 1.7.5.0 or later(see updating topic). I'm using [this module](https://www.olimex.com/Products/IoT/ESP8266/MOD-WIFI-ESP8266/open-source-hardware). It can be updated OTA without any issues and you don't need any soldering/using programmers to get your Agon online.
 
 ## Usage
